@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comissões de Desenho</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: palevioletred;
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+
+    .comissoes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    .titulo {
+      color: palevioletred;
+      font-size: 22px;
+      margin: 15px 0 5px;
+    }
+
+    .descricao {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .preco {
+      font-size: 20px;
+      font-weight: bold;
+      color: #d87093;
+      margin-top: 10px;
+    }
+
+    .botao {
+      background-color: palevioletred;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .botao:hover {
+      background-color: #d87093;
+    }
+  </style>
+</head>
+<body>
+  <h1>Comissões de Desenho</h1>
+
+  <div class="comissoes">
+    <div class="card">
+      <img src="busto.jpg" alt="Desenho busto">
+      <div class="titulo">Busto</div>
+      <div class="descricao">Arte do busto (cabeça e ombros), ideal para ícones e perfis.</div>
+      <div class="preco">R$ 50,00</div>
+      <button class="botao">Encomendar</button>
+    </div>
+
+    <div class="card">
+      <img src="meio-corpo.jpg" alt="Desenho meio corpo">
+      <div class="titulo">Meio Corpo</div>
+      <div class="descricao">Desenho até a cintura, com detalhes no fundo simples.</div>
+      <div class="preco">R$ 80,00</div>
+      <button class="botao">Encomendar</button>
+    </div>
+
+    <div class="card">
+      <img src="corpo-inteiro.jpg" alt="Desenho corpo inteiro">
+      <div class="titulo">Corpo Inteiro</div>
+      <div class="descricao">Desenho completo, pose personalizada e fundo elaborado.</div>
+      <div class="preco">R$ 120,00</div>
+      <button class="botao">Encomendar</button>
+    </div>
+
+    <div class="card">
+      <img src="chibi.jpg" alt="Desenho chibi">
+      <div class="titulo">Estilo Chibi</div>
+      <div class="descricao">Personagem em estilo fofo e mini, perfeito para adesivos!</div>
+      <div class="preco">R$ 40,00</div>
+      <button class="botao">Encomendar</button>
+    </div>
+  </div>
+</body>
+</html>
