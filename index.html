@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 1500px;
+        }
+        .head{
+            text-align: center;
+            background-color: palevioletred;
+            border-radius: 30px;
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 70px;
+            width: 400px;
+        }
+        img{
+            border-radius: 300px;
+        }
+        .container{
+            display: flex;
+            margin-left: 200px;
+        }
+        .esquerda{
+            width: 70%;
+            height: 200px;
+            text-align: center;
+        }
+        .direita{
+            width: 50%;
+            height: 500px;
+            text-align: center;
+        }
+        .titulo{
+            background-color: rgb(239, 192, 214);
+            border-radius: 30px;
+            color: rgb(96, 96, 97);
+            margin-left: 100px;
+            margin-right: 300px;
+            font-size: 30px;
+            
+        }
+        .bloco{
+            color: rgb(0, 0, 0);
+            margin-right: 200px;
+            font-size: 10px;
+            border: 1px solid #ccc;
+            background-color: rgb(186, 186, 186);
+        }
+        .fundo{
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        h1{
+            font-size: 30px;
+            margin-right: 180px;
+            color: rgb(226, 151, 178);
+        }
+        .parallax{
+            height: 600px;
+            background-image: url(fundo1.gif);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+        }
+        .sombra{
+            box-shadow: 2px 5px 10px rgba(35, 18, 20, 0.4);
+        }
+        .card {
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+        .label img {
+            border-radius: 8px;
+        }
+        .coisas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px;
+            margin-right: 200px;
+        }
+        audio{
+            background-color: rgb(255, 255, 255);
+            margin-left: 0px;
+        }
+        audio::-webkit-media-controls-panel {
+            background-color: #ffffff;
+        }
+        .botao-fofo {
+        background-color: palevioletred;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 25px;
+        font-size: 50px;
+        transition: 0.3s;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .botao-fofo:hover {
+        background-color: #d87093;
+        transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax">
+        <div class="head sombra">
+            Portifolio
+        </div>
+    </div>
+    <div class="fundo">
+    <div class="container">
+            <div class="direita">
+                <img src="icon.jpg" width="400"></div>
+            <div class="esquerda">
+                <div class="titulo">Bruxinha: <br> Vitória da Cunha Campião</div><br><br>
+                <div class="bloco"><p>Uma adolecente de 16 anos, amante da arte e que sonha em seguir uma carreira artistica.</p></div>
+                <br><br><h1>Coisas que eu gosto</h1>
+                
+                <div class="coisas">
+                    <div class="card">
+                        <div class="label"><img src="1.jfif" height="100" width="100" alt="Doce 1"></div>
+                    </div>
+                    <div class="card">
+                        <div class="label"><img src="2.jfif" height="100" width="100" alt="Doce 2"></div>
+                    </div>
+                    <div class="card">
+                        <div class="label"><img src="3.jfif" height="100" width="100" alt="Doce 3"></div>
+                    </div>
+                    <div class="card">
+                        <div class="label"><img src="4.jfif" height="100" width="100" alt="Doce 4"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <br><br>
+        
+        <h1>Musicas Favoritas: </h1>
+        <center><div class="coisas">
+            <div class="card">
+                <div class="label"><img src="d.avif" height="200" width="200" alt="Música 1"></div>
+                <audio src="Bad Desire (With or Without You) (English Ver.) [_EKBMKJXBp4].mp3" controls></audio>
+            </div>
+
+            <div class="card">
+                <div class="label"><img src="b.webp" height="200" width="200" alt="Música 2"></div>
+                <audio src="“Debut” MV (Choreography Ver.) _ KATSEYE [kG0z7hwY3as].mp3" controls></audio>
+            </div>
+
+            <div class="card">
+                <div class="label"><img src="t.jpg" height="200" width="200" alt="Música 3"></div>
+                <audio src="TVXQ - _Rising Sun_ Lyrics [Color Coded Han_Rom_Eng] [VYaC6N4ihDQ].mp3" controls></audio>
+            </div>
+            <div class="card">
+                <div class="label"><img src="a.jfif" height="200" width="200" alt="Música 3"></div>
+                <audio src="Anjos [mJjHVOv2bWI].mp3" controls></audio>
+            </div>
+        </div></center>
+
+        <center><form action="comicoe.html">
+        <button class="botao-fofo">Comições</button>
+        </form></center>
+
+    </div>
+</body>
+</html>
